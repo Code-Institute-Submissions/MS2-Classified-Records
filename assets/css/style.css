@@ -3,6 +3,10 @@ body p {
 }
 
 /* navbar styles */
+.navbar {
+    color: #fc6161;
+    background-color: #fafafa;
+}
 .navbar-logo-sm img {
     height: 60px;
     width: 60px;
@@ -11,4 +15,27 @@ body p {
 .navbar-logo-lg img {
     height: 80px;
     width: 240px;
+}
+
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fc6161;
+    font-size: 1.25rem;
+    font-family: 'Exo 2', sans-serif;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #fafafa;
+    text-align: right;
+    border: 1px solid #fafafa;
+}
+
+.dropdown-item {
+    color: #fc6161;
+    font-family: 'Exo 2', sans-serif;
 }

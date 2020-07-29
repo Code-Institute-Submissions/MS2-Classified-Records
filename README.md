@@ -30,4 +30,13 @@ The main colours used are as follows
 These align with the look of the bricks and mortar store.
 
 ### Fonts
-The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.google.com/)
+The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.google.com/).
+
+### Logos
+- I designed the "CR" mini logo and favicon using [Free Logo Design](https://www.freelogodesign.org).
+- The main Classified Records logos were generated using [Tailor Brands](https://www.tailorbrands.com).
+- The Discogs logo is property of [Discogs](https://www.discogs.com/).
+
+### Wireframes
+
+- I created site mockups using [Balsamiq](https://balsamiq.com/) for wireframes. The focus of this exercise was on defining the layout and structure of the site. Importantly, consideration was given to responsive design, with a mobile first philosphy. Identifying how the site layout should change at different screen sizes was an integral part of the wireframe process.

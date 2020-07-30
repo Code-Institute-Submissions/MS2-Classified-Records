@@ -60,10 +60,35 @@ h5 {
 /* END navbar styles */
 
 /* footer styles */
+.footer-container {
+    background-color: #fafafa;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
 .footer-links a {
     font-size: 32px;
     color: #fc6161;
+    margin: 2vh;
+    text-decoration: none;
 }
+
+.footer-links a:hover {
+    color: #000;
+} 
+
+.footer-links p {
+    display: inline;
+    font-size: 16px;
+    color: #fc6161;
+    margin: 2vh;
+}
+
+
 
 /* welcome page styles */
 .hero-image {

@@ -1,43 +1,97 @@
-body p {
-    font-family: 'Exo 2', sans-serif;
+/* general styles */
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "Exo 2", sans-serif;
+}
+
+body h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #fc6161;
 }
 
 /* navbar styles */
 .navbar {
-    color: #fc6161;
-    background-color: #fafafa;
+  color: #fc6161;
+  background-color: #fafafa;
 }
 .navbar-logo-sm img {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .navbar-logo-lg img {
-    height: 80px;
-    width: 240px;
+  height: 80px;
+  width: 240px;
 }
 
 .navbar-light .navbar-toggler {
-    border: 0;
+  border: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #fc6161;
-    font-size: 1.25rem;
-    font-family: 'Exo 2', sans-serif;
-    text-align: right;
-    margin-right: 1rem;
+  color: #fc6161;
+  font-size: 1.25rem;
+  font-family: "Exo 2", sans-serif;
+  text-align: right;
+  margin-right: 1rem;
 }
 
 .navbar-nav .dropdown-menu {
-    background-color: #fafafa;
-    text-align: right;
-    border: 1px solid #fafafa;
+  background-color: #fafafa;
+  text-align: right;
+  border: 1px solid #fafafa;
 }
+
 .dropdown-menu .dropdown-item {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 .dropdown-item {
-    color: #fc6161;
-    font-family: 'Exo 2', sans-serif;
+  color: #fc6161;
+  font-family: "Exo 2", sans-serif;
+}
+/* END navbar styles */
+
+/* welcome page styles */
+.hero-image {
+  background: url(../images/turntable-hero-image.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 992px) {
+  .main-logo {
+    display: block;
+    width: 81vw;
+    height: 27vw;
+    margin: auto;
+    border: 1px solid #fc6161;
+    border-radius: 5px;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .main-logo {
+    display: block;
+    width: 60vw;
+    height: 20vw;
+    margin: auto;
+    border: 1px solid #fc6161;
+    border-radius: 5px;
+  }
 }

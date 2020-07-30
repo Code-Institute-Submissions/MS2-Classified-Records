@@ -59,6 +59,12 @@ h5 {
 }
 /* END navbar styles */
 
+/* footer styles */
+.footer-links a {
+    font-size: 32px;
+    color: #fc6161;
+}
+
 /* welcome page styles */
 .hero-image {
   background: url(../images/turntable-hero-image.jpg) no-repeat center fixed;

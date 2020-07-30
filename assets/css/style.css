@@ -34,7 +34,9 @@ body p {
     text-align: right;
     border: 1px solid #fafafa;
 }
-
+.dropdown-menu .dropdown-item {
+    font-size: 1rem;
+}
 .dropdown-item {
     color: #fc6161;
     font-family: 'Exo 2', sans-serif;

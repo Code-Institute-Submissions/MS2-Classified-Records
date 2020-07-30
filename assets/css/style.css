@@ -87,7 +87,7 @@ h5 {
     color: #fc6161;
     margin: 2vh;
 }
-
+/* END footer styles */
 
 
 /* welcome page styles */
@@ -125,4 +125,11 @@ h5 {
     border: 1px solid #fc6161;
     border-radius: 5px;
   }
+}
+/* END welcome page styles */
+
+/* New In page styles */
+#new-in h2 {
+    margin-top: 5vh;
+    text-align: center;
 }

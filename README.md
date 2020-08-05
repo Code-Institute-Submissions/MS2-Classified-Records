@@ -25,6 +25,7 @@ The aim of this project is to build a website which enables a small independent 
 The main colours used are as follows
 
 - ![#fc6161](https://via.placeholder.com/15/fc6161/000000?text=+) `#fc6161`
+- ![#fafafa](https://via.placeholder.com/15/fafafa/000000?text=+) `#fafafa`
 - Black
 - White
 
@@ -40,4 +41,4 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 
 ### Wireframes
 
-- I created site mockups using [Balsamiq](https://balsamiq.com/) for wireframes. The focus of this exercise was on defining the layout and structure of the site. Importantly, consideration was given to responsive design, with a mobile first philosphy. Identifying how the site layout should change at different screen sizes was an integral part of the wireframe process.
+- I created site mockups using [Balsamiq](https://balsamiq.com/) for wireframes. The focus of this exercise was on defining the layout and structure of the site. Importantly, consideration was given to responsive design, with a mobile first philosphy employed. Identifying how the site layout should change at different screen sizes was an integral part of the wireframe process.

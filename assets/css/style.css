@@ -133,3 +133,8 @@ h5 {
     margin-top: 5vh;
     text-align: center;
 }
+
+.carousel-control-prev .carousel-control-prev-icon,
+.carousel-control-next .carousel-control-next-icon {
+    background-color: #fc6161;
+}

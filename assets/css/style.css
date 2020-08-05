@@ -15,6 +15,12 @@ h3,
 h4,
 h5 {
   color: #fc6161;
+  text-align: center;
+}
+
+.section-heading {
+    margin-top: 5vh;
+    text-align: center;
 }
 
 /* navbar styles */
@@ -173,10 +179,6 @@ h5 {
 /* END welcome page styles */
 
 /* New In page styles */
-#new-in h2, #new-in h3 {
-    margin-top: 5vh;
-    text-align: center;
-}
 
 .carousel-control-prev .carousel-control-prev-icon,
 .carousel-control-next .carousel-control-next-icon {

@@ -66,7 +66,8 @@
 <!--New In-->
 <section id="new-in">
     <h2>New In</h2>
-    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+<!--Carousel which displays on small and medium screen sizes-->    
+    <div id="carouselExampleIndicators" class="carousel slide mt-5 d-block d-lg-none" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -115,6 +116,42 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+
+<!--Layout for large screen sizes and above-->
+	<div class="container d-none d-lg-block">
+		<div class="row justify-content-center">
+			<div class="col-4 mt-5">
+				<img src="assets/images/album-covers/a-heros-death.jpg" class="d-block mx-auto" alt="album cover">
+				<p class="album-name">A Hero's Death</p>
+				<h5 class="artist">Fontaines DC</h5>
+				<p class="price">€25.00</p>
+			</div>
+			<div class="col-4 mt-5">
+                <img src="assets/images/album-covers/wtmmg.jpg" class="d-block mx-auto" alt="album cover">
+                <p class="album-name">Will This Make Me Good</p>
+                <h5 class="artist">Nick Hakim</h5>
+                <p class="price">€27.00</p>
+			</div>
+			<div class="col-4 mt-5">
+                <img src="assets/images/album-covers/kitchen-sink.jpg" class="d-block mx-auto" alt="album cover">
+                <p class="album-name">Kitchen Sink</p>
+                <h5 class="artist">Nadine Shah</h5>
+                <p class="price">€27.00</p>  
+			</div>
+			<div class="col-4 mt-5">
+                <img src="assets/images/album-covers/mingus-ah-um.jpg" class="d-block mx-auto" alt="album cover">
+                <p class="album-name">Mingus Ah Um</p>
+                <h5 class="artist">Charlie Mingus</h5>
+                <p class="price">€29.00</p> 
+			</div>
+			<div class="col-4 mt-5">
+                <img src="assets/images/album-covers/nothing-new.jpg" class="d-block mx-auto" alt="album cover">
+                <p class="album-name">Nothing New</p>
+                <h5 class="artist">Gil Scott Heron</h5>
+                <p class="price">€27.00</p> 
+			</div>
+		</div>
+	</div>
 </section>
 
 <!--Contact Us-->

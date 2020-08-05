@@ -129,13 +129,8 @@ h5 {
 /* END welcome page styles */
 
 /* New In page styles */
-#new-in h2 {
+#new-in h2, #new-in h3 {
     margin-top: 5vh;
-    text-align: center;
-}
-
-#new-in h3 {
-    margin-top: 3vh;
     text-align: center;
 }
 

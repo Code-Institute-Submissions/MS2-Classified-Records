@@ -197,3 +197,22 @@ h5 {
 .carousel-indicators {
     bottom: 60px;
 }
+/*END New In page styles */
+
+/* Contact Us page styles */
+
+.contact-form {
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .form-element {
+        width: 70vw;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .form-element {
+        width: 40vw;
+    }
+}

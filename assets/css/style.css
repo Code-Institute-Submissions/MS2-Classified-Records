@@ -93,7 +93,7 @@ h5 {
 
 #button {
   display: inline-block;
-  background-color: #FF9800;
+  background-color: #222;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -120,11 +120,11 @@ h5 {
 
 #button:hover {
   cursor: pointer;
-  background-color: #333;
+  background-color: #fc6161;
 }
 
 #button:active {
-  background-color: #555;
+  background-color: rgb(240, 35, 35);
 }
 
 #button.show {

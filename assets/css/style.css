@@ -138,3 +138,16 @@ h5 {
 .carousel-control-next .carousel-control-next-icon {
     background-color: #fc6161;
 }
+
+.album-name, .artist, .price {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.album-name {
+    margin-top: 2vh;
+}
+
+.carousel-indicators {
+    bottom: 60px;
+}

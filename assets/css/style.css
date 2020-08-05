@@ -134,6 +134,11 @@ h5 {
     text-align: center;
 }
 
+#new-in h3 {
+    margin-top: 3vh;
+    text-align: center;
+}
+
 .carousel-control-prev .carousel-control-prev-icon,
 .carousel-control-next .carousel-control-next-icon {
     background-color: #fc6161;

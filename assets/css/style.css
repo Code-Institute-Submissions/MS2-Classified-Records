@@ -248,3 +248,10 @@ h5 {
     border: 1px solid #fff;
     border-radius: 5px;
 }
+ /* END contact us page */
+
+ /* Find us section styles */
+
+ div#map {
+     height: 30vh;
+ }

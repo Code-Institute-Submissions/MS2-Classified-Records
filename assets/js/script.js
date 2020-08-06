@@ -1,3 +1,4 @@
+//Scroll to top button code
 var btn = $("#button");
 
 $(window).scroll(function() {
@@ -11,4 +12,10 @@ $(window).scroll(function() {
 btn.on("click", function(e) {
   e.preventDefault();
   $("html, body").animate({scrollTop:0}, "300");
+});
+
+//Form submit modal code
+$("#contact-form").on("submit", function(e){
+  $("#confirmModal").modal("show");
+  e.preventDefault();
 });

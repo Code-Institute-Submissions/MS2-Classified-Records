@@ -216,3 +216,12 @@ h5 {
         width: 40vw;
     }
 }
+
+.form-element {
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.form-query {
+    height: 10vh;
+}

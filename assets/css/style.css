@@ -241,9 +241,8 @@ h5 {
 }
 
 .discogs-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    margin-left: 35vw;
     width: 30vw;
     height: 12vw;
     border: 1px solid #fff;

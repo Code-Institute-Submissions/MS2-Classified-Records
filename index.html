@@ -176,6 +176,7 @@
     </div>
 </section>
 <hr>
+<!--END New In Section-->
 
 <!--Contact Us-->
 <section id="contact">
@@ -184,15 +185,15 @@
     <h5 class="mt-5">Have a question?</h5>
     <h5>Please fill out our contact form and we will get back to you within 24 hours.</h5>
 
-    <form class="contact-form mt-5" onsubmit="return sendMail(this);">
+    <form class="contact-form mt-5" id="contact-form" onsubmit="return sendMail(this);">
 		<label for="name1"></label>
-		<input type="text" id="name1" name="name1" class="form-element mx-auto" placeholder="Name">
+		<input type="text" id="name1" name="name1" class="form-element mx-auto" placeholder="Name" required>
 		<br>
 		<label for="email1"></label>
-		<input type="email" id="email1" name="email1" class="form-element mx-auto mt-3" placeholder="Email address">
+		<input type="email" id="email1" name="email1" class="form-element mx-auto mt-3" placeholder="Email address" required>
 		<br>
 		<label for="query1"></label>
-		<textarea type="text" id="query1" name="query1" class="form-element form-query mx-auto mt-3" placeholder="How can we help?"></textarea>
+		<textarea type="text" id="query1" name="query1" class="form-element form-query mx-auto mt-3" placeholder="How can we help?" required></textarea>
         <br>
         <input type="submit" value="Submit" class="my-3 form-submit" data-toggle="modal" data-target="#confirmModal">
     </form>
@@ -201,13 +202,13 @@
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+					<h5 class="modal-title" id="exampleModalLabel">Great Success!</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
 				</div>
 				<div class="modal-body">
-					ya whoooat?
+                    <p>We have received your query and will respond within 24 hours.</p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -223,8 +224,8 @@
             <img src="assets/images/discogs-logo.png" alt="Discogs logo" class="discogs-logo">
         </a>
     </div>
-
 </section>
+<!--END Contact Us section-->
 
 <!--Find Us-->
 <section id="find">

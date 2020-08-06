@@ -267,7 +267,7 @@ h5 {
 
 @media only screen and (min-width: 769px) {
     .find-info {
-        width: 50vw;
+        width: 40vw;
     }
 }
 
@@ -283,6 +283,6 @@ h5 {
 .find-info .key p, 
 .find-info .value p {
     margin: 1vh 0;
-    padding-left: 10px;
+    padding-left: 3vw;
 }
  

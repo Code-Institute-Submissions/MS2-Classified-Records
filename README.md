@@ -42,3 +42,53 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 ### Wireframes
 
 - I created site mockups using [Balsamiq](https://balsamiq.com/) for wireframes. The focus of this exercise was on defining the layout and structure of the site. Importantly, consideration was given to responsive design, with a mobile first philosphy employed. Identifying how the site layout should change at different screen sizes was an integral part of the wireframe process.
+
+# Features
+
+## Existing Features
+- Welcome page, "New In" page which shows new items in stock
+- Interactive navbar with responsive dropdown menu and social links
+- Store contact and location info
+- Info on store opening hours
+- Interactive contact form which allows users to submit queries to the store
+- Interactive map with marker on store location
+- Documentation: ReadMe file
+- Bootstrap CSS Framework
+  - Grid layout: columns and rows
+  - Content layout
+- Responsive mobile first design
+- Accessibility
+- Git version control
+- GitHub remote repository
+- Deployed - hosted on GitHub Pages
+
+
+## Technologies Used
+- [HTML](https://www.w3.org/html/)
+  - HTML used for structure
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+  - CSS used for styling
+- [JavaScript](https://www.ecma-international.org/default.htm)
+  - JavaScript used to add interactivity (DOM manipulation, contact form and maps APIs)
+- [jQuery](https://jquery.com/)
+  - JavaScript library 
+- [Bootstrap](https://getbootstrap.com/docs/4.5/layout/overview/)
+  - Bootstrap HTML/CSS framework used to structure and style page elements
+- [Google Maps API](https://developers.google.com/maps/documentation)
+  - Used to embed map in the web page
+- [EmailJS](https://www.emailjs.com/)
+  - Used to wire up contact form to send user queries to store email address
+- [Git](https://git-scm.com/)
+  - Git version control
+- [GitHub](https://github.com/)
+  - Repository hosted on GitHub
+- [GitPod](https://www.gitpod.io/)
+  - Code for the project was written in the GitPod IDE
+- [Google Chrome](https://www.google.com/chrome/)
+  - Used for dev tools and browser
+- [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+  - Used for dev tools and browser
+- [Am I Responsive](http://ami.responsivedesign.is/#)
+  - Used to test responsiveness of the site
+- [Free Formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
+  - Used to format HTML in GitHub repository

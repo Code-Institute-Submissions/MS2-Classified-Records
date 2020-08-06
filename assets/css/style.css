@@ -130,7 +130,7 @@ h5 {
 }
 
 #button:active {
-  background-color: rgb(240, 35, 35);
+  background-color: #f02323;
 }
 
 #button.show {
@@ -224,4 +224,18 @@ h5 {
 }
 .form-query {
     height: 10vh;
+}
+
+.form-submit {
+    background-color: #fc6161;
+    color: #fafafa;
+    width: 100px;
+    border: 1px solid #fc6161;
+    border-radius: 50px;
+    font-family: "Exo 2", sans-serif;
+}
+
+.form-submit:hover {
+    background-color: #f02323;
+    border: 1px solid #f02323;
 }

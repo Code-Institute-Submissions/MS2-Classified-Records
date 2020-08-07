@@ -213,13 +213,13 @@ h5 {
 
 @media only screen and (max-width: 992px) {
     .form-element {
-        width: 70vw;
+        width: 80vw;
     }
 }
 
 @media only screen and (min-width: 993px) {
     .form-element {
-        width: 50vw;
+        width: 60vw;
     }
 }
 
@@ -237,9 +237,10 @@ h5 {
 .form-submit {
     background-color: #fc6161;
     color: #fafafa;
-    width: 100px;
+    width: 9rem;
+    height: 2rem;
     border: 1px solid #fc6161;
-    border-radius: 50px;
+    border-radius: 4rem;
     font-family: "Exo 2", sans-serif;
 }
 

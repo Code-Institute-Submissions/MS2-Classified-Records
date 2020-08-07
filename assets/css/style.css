@@ -145,35 +145,41 @@ h5 {
   background: url(../images/turntable-hero-image.jpg) no-repeat center fixed;
   background-size: cover;
   height: 100vh;
+  padding: 0;
 }
 
-.welcome {
-  text-align: center;
-  padding-top: 15vh;
-  padding-bottom: 5vh;
-  font-size: 3rem;
-  font-weight: 500;
+.welcome-overlay {
+    background-color: #fc616155;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 992px) {
   .main-logo {
-    display: block;
     width: 81vw;
     height: 27vw;
     margin: auto;
     border: 1px solid #fc6161;
     border-radius: 5px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -0%);
   }
 }
 
 @media only screen and (min-width: 993px) {
   .main-logo {
-    display: block;
     width: 60vw;
     height: 20vw;
     margin: auto;
     border: 1px solid #fc6161;
     border-radius: 5px;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -0%);
   }
 }
 /* END welcome page styles */

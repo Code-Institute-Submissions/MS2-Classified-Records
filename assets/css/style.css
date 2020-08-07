@@ -278,6 +278,7 @@ h5 {
 
   .find-info .value {
      display: inline-block;
+     width: 70%;
  }
 
 .find-info .key p, 

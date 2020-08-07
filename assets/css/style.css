@@ -226,6 +226,7 @@ h5 {
     height: 10vh;
 }
 
+.modal-footer .modal-close,
 .form-submit {
     background-color: #fc6161;
     color: #fafafa;
@@ -235,7 +236,8 @@ h5 {
     font-family: "Exo 2", sans-serif;
 }
 
-.form-submit:hover {
+.form-submit:hover,
+.modal-footer .modal-close:hover  {
     background-color: #f02323;
     border: 1px solid #f02323;
 }
@@ -248,6 +250,8 @@ h5 {
     border: 1px solid #fff;
     border-radius: 5px;
 }
+
+
  /* END contact us page */
 
  /* Find us section styles */

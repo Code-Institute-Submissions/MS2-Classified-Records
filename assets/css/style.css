@@ -213,7 +213,7 @@ h5 {
 
 @media only screen and (min-width: 993px) {
     .form-element {
-        width: 40vw;
+        width: 50vw;
     }
 }
 
@@ -224,6 +224,7 @@ h5 {
 }
 .form-query {
     height: 10vh;
+    resize: none;
 }
 
 .modal-footer .modal-close,
@@ -250,6 +251,7 @@ h5 {
     border: 1px solid #fff;
     border-radius: 5px;
 }
+
 
 
  /* END contact us page */

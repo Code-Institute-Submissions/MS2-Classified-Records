@@ -23,6 +23,14 @@ h5 {
   text-align: center;
 }
 
+.fade-in {
+    opacity: 1;
+}
+
+.fade-out {
+    opacity 0;
+}
+
 /* navbar styles */
 .navbar {
   color: #fc6161;
@@ -208,6 +216,33 @@ h5 {
 .carousel-indicators {
   bottom: 60px;
 }
+
+.album-review {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    top: 2rem;
+    right: 6rem;
+    background-color: #fafafadd;
+    border: 1px solid #fafafadd;
+    border-radius: 5px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.album-review a {
+    color: #fc6161;
+    text-decoration: none;
+}
+
+.album-review a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
 /*END New In page styles */
 
 /* Contact Us page styles */

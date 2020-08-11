@@ -36,6 +36,11 @@ h5 {
 .navbar-logo-lg img {
   height: 80px;
   width: 240px;
+  transition: transform 0.3s;
+}
+
+.navbar-logo-lg img:hover {
+    transform: scale(1.2);
 }
 
 .navbar-light .navbar-toggler {

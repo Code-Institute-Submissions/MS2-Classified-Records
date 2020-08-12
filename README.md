@@ -34,6 +34,14 @@ The key interactive features on the website which users can engage with are:
 Other important features that I decided to include were easily accessible links to the store's Discogs marketplace page and social links, info on new records in stock and info on a weekly offer that users can avail of.
 
 ### Structure
+In line with the desire to "keep it simple" I settled on using a single page structure with four separate sections:
+- Welcome / home page  
+- New In
+- Contact
+- Find 
+
+To further ease navigation around the page the navbar remains visible at the top of the page. A scroll to top button also becomes visible when a user scrolls away from the welcome page.
+Links in the footer also provide another easily accessible option to visit external links (social media and Discogs).
 
 
 
@@ -64,18 +72,23 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 # Features
 
 ## Existing Features
-- Welcome page, "New In" page which shows new items in stock
 - Interactive navbar with responsive dropdown menu and social links
+- Welcome page, "New In" page which shows new items in stock
+- Multiple choice quiz
 - Store contact and location info
 - Info on store opening hours
 - Interactive contact form which allows users to submit queries to the store
 - Interactive map with marker on store location
+- Footer containing external links to Discogs and social media sites
 - Documentation: ReadMe file
 - Accessibility
 - Git version control
 - GitHub remote repository
 - Deployed - hosted on GitHub Pages
 
+## Planned Features
+- Back-end focused development (Mailing list, customer database)
+- Add info on in-store events when it becomes possible to host them again in future
 
 ## Technologies Used
 - [HTML](https://www.w3.org/html/)

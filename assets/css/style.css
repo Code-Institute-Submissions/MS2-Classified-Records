@@ -232,6 +232,7 @@ h5 {
     font-size: 18px;
     text-align: center;
     padding-top: 10px;
+    transition: opacity 0.2s ease 0.2s;
 }
 
 .album-review a {

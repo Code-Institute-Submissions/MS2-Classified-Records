@@ -1,2 +1,2 @@
-*.yml
+.gitpod.yml
 *.dockerfile

@@ -21,11 +21,11 @@ The aim of this project is to build a website which enables a small independent 
 
 ## The 5 Planes Considerations
 
-### Strategy
+### Strategy Plane
 The main goals for the store when deciding to undertake this project were to increase engagement with new and existing customers and to increase sales growth via an increased online presence.
 The target audience is a broad demographic of audiophiles with various musical and cultural interests. With this in mind I set out to create an uncluttered, clean website that is easy and fun to interact with for all.
 
-### Scope
+### Scope Plane
 The key interactive features on the website which users can engage with are:  
 - Quiz - multiple choice questions which are a bit of fun to test users music knowledge  
 - Contact form to submit any queries 
@@ -33,17 +33,30 @@ The key interactive features on the website which users can engage with are:
 
 Other important features that I decided to include were easily accessible links to the store's Discogs marketplace page and social links, info on new records in stock and info on a weekly offer that users can avail of.
 
-### Structure
+### Structure Plane
 In line with the desire to "keep it simple" I settled on using a single page structure with four separate sections:
 - Welcome / home page  
 - New In
 - Contact
 - Find 
 
-To further ease navigation around the page the navbar remains visible at the top of the page. A scroll to top button also becomes visible when a user scrolls away from the welcome page.
-Links in the footer also provide another easily accessible option to visit external links (social media and Discogs).
+### Skeleton Plane
+As outlined in the Structure Plane section above I decided to use a single page format for simplicity. 
+Within the structure of the site I then needed to drill down to the navigation options I felt suited the project.
 
+- Navigation around the page is simplified as the navbar remains visible at the top of the page when scrolling through the content.
+A click on any of the navbar options will bring the user direct to their selected section.
+- The navbar also contains a drop down menu which contains links to the store's social media pages.
+- A scroll to top button also becomes visible when a user scrolls away from the welcome page.
+- Links in the footer also provide another easily accessible option to visit external links (social media and Discogs).
 
+### Surface Plane
+I wanted to create a theme which bears strong resemblance to the bricks and mortar store. Hence the use of the colours as outlined below in the design section.
+Finding a striking hero image which also blends in nicely with the rest of the page was important, and I settled on a beautiful close up image of a turntable which I found on Unsplash.  
+A transparent light gray overlay was applied to this to gently mute the shades in the image.
+
+The main body of the page is mainly white which ties in with the clean, modern look of the store. The fonts are mostly in red  ![#fc6161](https://via.placeholder.com/15/fc6161/000000?text=+) `#fc6161` or black for smaller font sizes.
+Again the reasoning behind these choices was to evoke the look of the real world store in users minds while they browse the site.
 
 ## Design
 

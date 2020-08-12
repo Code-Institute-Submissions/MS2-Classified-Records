@@ -71,6 +71,8 @@ const quiz = () => {
 
     //call inner function to run within "parent" quiz() function
     buildQuiz();
+    //run show results function when submit button clicked
+    submitButton.click(showResults);
 };
 
 //calling quiz function to run the quiz

@@ -1,23 +1,23 @@
 //Scroll to top button
 var btn = $("#button");
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 300) {
-    btn.addClass("show");
-  } else {
-    btn.removeClass("show");
-  }
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 300) {
+        btn.addClass("show");
+    } else {
+        btn.removeClass("show");
+    }
 });
 
-btn.on("click", function(e) {
-  e.preventDefault();
-  $("html, body").animate({scrollTop:0}, "300");
+btn.on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, "300");
 });
 
 //Form submit modal
-$("#contact-form").on("submit", function(e){
-  $("#confirmModal").modal("show");
-  e.preventDefault();
+$("#contact-form").on("submit", function (e) {
+    $("#confirmModal").modal("show");
+    e.preventDefault();
 });
 
 //Form reset on submit
@@ -29,24 +29,50 @@ function resetForm() {
 
 //Fade in/out album reviews on mouseover/out
 const toggleAlbumReview = () => {
-    const albumCover = document.querySelector(".album-cover");
-    const albumReview = document.querySelector(".album-review");
-    
-    albumCover.addEventListener("mouseenter", function(){
-        albumReview.classList.remove("fade-out");
-        albumReview.classList.add("fade-in");
+    $("#albumCover1").mouseenter(function () {
+        $("#albumReview1").addClass("fade-in");
+        $("#albumReview1").removeClass("fade-out");
     });
 
-    albumCover.addEventListener("mouseout", function(){
-        albumReview.classList.remove("fade-in");
-        albumReview.classList.add("fade-out");
+    $("#albumCover1").mouseleave(function () {
+        $("#albumReview1").addClass("fade-out");
+        $("#albumReview1").removeClass("fade-in");
     });
 
-    albumReview.addEventListener("mouseenter", function(){
-        albumReview.classList.remove("fade-out");
-        albumReview.classList.add("fade-in");
+    $("#albumCover2").mouseenter(function () {
+        $("#albumReview2").addClass("fade-in");
+        $("#albumReview2").removeClass("fade-out");
     });
 
-}
+    $("#albumCover2").mouseleave(function () {
+        $("#albumReview2").addClass("fade-out");
+        $("#albumReview2").removeClass("fade-in");
+    });
+
+    $("#albumCover3").mouseenter(function () {
+        $("#albumReview3").addClass("fade-in");
+        $("#albumReview3").removeClass("fade-out");
+    });
+
+    $("#albumCover3").mouseleave(function () {
+        $("#albumReview3").addClass("fade-out");
+        $("#albumReview3").removeClass("fade-in");
+    });
+
+    $("#albumReview1").mouseenter(function () {
+        $("#albumReview1").addClass("fade-in");
+        $("#albumReview1").removeClass("fade-out");
+    });
+
+    $("#albumReview2").mouseenter(function () {
+        $("#albumReview2").addClass("fade-in");
+        $("#albumReview2").removeClass("fade-out");
+    });
+
+    $("#albumReview3").mouseenter(function () {
+        $("#albumReview3").addClass("fade-in");
+        $("#albumReview3").removeClass("fade-out");
+    });
+};
+
 toggleAlbumReview();
-

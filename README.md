@@ -19,6 +19,24 @@ The aim of this project is to build a website which enables a small independent 
 - As a site owner I want the website to drive **customer engagement**
 - As a site owner I want the website to drive **sales growth**
 
+## The 5 Planes Considerations
+
+### Strategy
+The main goals for the store when deciding to undertake this project were to increase engagement with new and existing customers and to increase sales growth via an increased online presence.
+The target audience is a broad demographic of audiophiles with various musical and cultural interests. With this in mind I set out to create an uncluttered, clean website that is easy and fun to interact with for all.
+
+### Scope
+The key interactive features on the website which users can engage with are:  
+- Quiz - multiple choice questions which are a bit of fun to test users music knowledge  
+- Contact form to submit any queries 
+- Google Maps API
+
+Other important features that I decided to include were easily accessible links to the store's Discogs marketplace page and social links, info on new records in stock and info on a weekly offer that users can avail of.
+
+### Structure
+
+
+
 ## Design
 
 ### Colours
@@ -53,10 +71,6 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 - Interactive contact form which allows users to submit queries to the store
 - Interactive map with marker on store location
 - Documentation: ReadMe file
-- Bootstrap CSS Framework
-  - Grid layout: columns and rows
-  - Content layout
-- Responsive mobile first design
 - Accessibility
 - Git version control
 - GitHub remote repository

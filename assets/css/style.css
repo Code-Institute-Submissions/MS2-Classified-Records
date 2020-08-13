@@ -285,9 +285,17 @@ div#results {
 }
 
 .question {
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-bottom: 1vh;
+    font-weight: 600;
 }
+
+.answers {
+    padding-bottom: 15px;
+}
+/*End quiz styles*/
+
+
 /* Contact Us page styles */
 
 .contact-form {

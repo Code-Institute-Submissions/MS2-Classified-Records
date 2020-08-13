@@ -3,6 +3,7 @@
 Classified Records is an independent record store based in Dundalk, Ireland.
 
 # UX
+![amiresponsive](/assets/images/responsive-screenshot.png)
 
 The aim of this project is to build a website which enables a small independent business to better engage with it's audience in order to drive the growth of the business.
 
@@ -132,3 +133,45 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
   - Used to test responsiveness of the site
 - [Free Formatter](https://www.freeformatter.com/html-formatter.html#ad-output)
   - Used to format HTML in GitHub repository
+
+# Testing
+
+  The site was manually tested on different devices and browsers to check responsiveness and functionality.
+
+## Manual Testing
+
+## Testing on Different Browsers
+
+## Code Validation
+
+## User Stories
+
+## Deployment
+The site is hosted on [GitHub Pages](https://dermot-k.github.io/MS2-Classified-Records/).
+
+The process involved:
+
+- Host a git repository on GitHub. Explained here.
+- The root folder contains README.md and index.html files
+- On GitHub repository settings page move to GitHub Pages section
+- Change source to master branch. (Or any desired branch)
+- Provided link will be your projects home (index) page.
+
+To deploy your own version of the website:
+
+- Have git installed
+- Visit the repository
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (GitPod, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+- git clone [https://github.com/Dermot-K/MS2-Classified-Records](https://github.com/Dermot-K/MS2-Classified-Records)
+- When this completes you have your own version of the website
+- Feel free to make any changes to it
+- The website can be run by opening one of the HTML files within a web browser
+- Visit the link provided
+- Your website with any made changes will appear
+- Saved changes to the website will appear here after refreshing the page
+- The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.

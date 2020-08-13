@@ -49,7 +49,7 @@ function showResults() {
             numCorrect++;
 
             // color the answers green
-            answerContainers[questionNumber].style.color = "affc61";
+            answerContainers[questionNumber].style.color = "#affc61";
         }
         // if answer is wrong or blank
         else {

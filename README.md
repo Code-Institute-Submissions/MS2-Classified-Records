@@ -1,6 +1,34 @@
 # Classified Records
-
 Classified Records is an independent record store based in Dundalk, Ireland.
+
+Table of contents:
+- [UX](#ux)
+  * [User Goals](#user-goals)
+  * [Site Owner Goals](#site-owner-goals)
+  * [The 5 Planes Considerations](#the-5-planes-considerations)
+    + [Strategy Plane](#strategy-plane)
+    + [Scope Plane](#scope-plane)
+    + [Structure Plane](#structure-plane)
+    + [Skeleton Plane](#skeleton-plane)
+    + [Surface Plane](#surface-plane)
+  * [Design](#design)
+    + [Colours](#colours)
+    + [Fonts](#fonts)
+    + [Logos](#logos)
+    + [Wireframes](#wireframes)
+- [Features](#features)
+  * [Existing Features](#existing-features)
+  * [Planned Features](#planned-features)
+  * [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  * [Manual Testing](#manual-testing)
+  * [Testing on Different Browsers](#testing-on-different-browsers)
+  * [Code Validation](#code-validation)
+  * [User Stories](#user-stories)
+  * [Deployment](#deployment)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 # UX
 ![amiresponsive](/assets/images/responsive-screenshot.png)

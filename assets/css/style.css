@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 p {
-  font-family: "Exo 2", sans-serif;
+    font-family: "Exo 2", sans-serif;
 }
 
 body h1,
@@ -14,13 +14,13 @@ h2,
 h3,
 h4,
 h5 {
-  color: #fc6161;
-  text-align: center;
+    color: #fc6161;
+    text-align: center;
 }
 
 .section-heading {
-  margin-top: 5vh;
-  text-align: center;
+    margin-top: 5vh;
+    text-align: center;
 }
 
 .fade-in {
@@ -35,18 +35,18 @@ h5 {
 
 /* navbar styles */
 .navbar {
-  color: #fc6161;
-  background-color: #fafafa;
+    color: #fc6161;
+    background-color: #fafafa;
 }
 .navbar-logo-sm img {
-  height: 60px;
-  width: 60px;
+    height: 60px;
+    width: 60px;
 }
 
 .navbar-logo-lg img {
-  height: 80px;
-  width: 240px;
-  transition: transform 0.3s;
+    height: 80px;
+    width: 240px;
+    transition: transform 0.3s;
 }
 
 .navbar-logo-lg img:hover {
@@ -54,146 +54,146 @@ h5 {
 }
 
 .navbar-light .navbar-toggler {
-  border: 0;
+    border: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #fc6161;
-  font-size: 1.25rem;
-  font-family: "Exo 2", sans-serif;
-  text-align: right;
-  margin-right: 1rem;
+    color: #fc6161;
+    font-size: 1.25rem;
+    font-family: "Exo 2", sans-serif;
+    text-align: right;
+    margin-right: 1rem;
 }
 
 .navbar-nav .dropdown-menu {
-  background-color: #fafafa;
-  text-align: right;
-  border: 1px solid #fafafa;
+    background-color: #fafafa;
+    text-align: right;
+    border: 1px solid #fafafa;
 }
 
 .dropdown-menu .dropdown-item {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 .dropdown-item {
-  color: #fc6161;
-  font-family: "Exo 2", sans-serif;
+    color: #fc6161;
+    font-family: "Exo 2", sans-serif;
 }
 /* END navbar styles */
 
 /* footer styles */
 .footer-container {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 .footer-links {
-  text-align: center;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 
 .footer-links a {
-  font-size: 32px;
-  color: #fc6161;
-  margin: 2vh;
-  text-decoration: none;
+    font-size: 32px;
+    color: #fc6161;
+    margin: 2vh;
+    text-decoration: none;
 }
 
 .footer-links a:hover {
-  color: #000;
+    color: #000;
 }
 
 .footer-links p {
-  display: inline;
-  font-size: 16px;
-  color: #fc6161;
-  margin: 2vh;
+    display: inline;
+    font-size: 16px;
+    color: #fc6161;
+    margin: 2vh;
 }
 /* END footer styles */
 
 /* Scroll to top button styles */
 
 #button {
-  display: inline-block;
-  background-color: #222;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 1000;
+    display: inline-block;
+    background-color: #222;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
 }
 
 #button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
 }
 
 #button:hover {
-  cursor: pointer;
-  background-color: #fc6161;
+    cursor: pointer;
+    background-color: #fc6161;
 }
 
 #button:active {
-  background-color: #f02323;
+    background-color: #f02323;
 }
 
 #button.show {
-  opacity: 1;
-  visibility: visible;
+    opacity: 1;
+    visibility: visible;
 }
 /* END back to top button styles */
 
 /* welcome page styles */
 .hero-image {
-  background: url(../images/turntable-hero-image.jpg) no-repeat center fixed;
-  background-size: cover;
-  height: 100vh;
-  padding: 0;
+    background: url(../images/turntable-hero-image.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
 }
 
 .welcome-overlay {
-  background-color: #99999955;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
+    background-color: #99999955;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
 }
 
 @media only screen and (max-width: 992px) {
-  .main-logo {
-    width: 81vw;
-    height: 27vw;
-    margin: auto;
-    border: 1px solid #fc6161;
-    border-radius: 5px;
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -0%);
-  }
+    .main-logo {
+        width: 81vw;
+        height: 27vw;
+        margin: auto;
+        border: 1px solid #fc6161;
+        border-radius: 5px;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -0%);
+    }
 }
 
 @media only screen and (min-width: 993px) {
-  .main-logo {
-    width: 60vw;
-    height: 20vw;
-    margin: auto;
-    border: 1px solid #fc6161;
-    border-radius: 5px;
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -0%);
-  }
+    .main-logo {
+        width: 60vw;
+        height: 20vw;
+        margin: auto;
+        border: 1px solid #fc6161;
+        border-radius: 5px;
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -0%);
+    }
 }
 /* END welcome page styles */
 
@@ -201,22 +201,22 @@ h5 {
 
 .carousel-control-prev .carousel-control-prev-icon,
 .carousel-control-next .carousel-control-next-icon {
-  background-color: #fc6161;
+    background-color: #fc6161;
 }
 
 .album-name,
 .artist,
 .price {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .album-name {
-  margin-top: 2vh;
+    margin-top: 2vh;
 }
 
 .carousel-indicators {
-  bottom: 60px;
+    bottom: 60px;
 }
 
 .album-review {
@@ -245,61 +245,76 @@ h5 {
     text-decoration: none;
 }
 
-
 /*END New In page styles */
 
+/* quiz styles */
+div#quiz {
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+.quiz-button {
+    text-align: center;
+    margin-top: 3vh;
+}
 /* Contact Us page styles */
 
 .contact-form {
-  text-align: center;
+    text-align: center;
 }
 
 @media only screen and (max-width: 992px) {
-  .form-element {
-    width: 80vw;
-  }
+    .form-element {
+        width: 80vw;
+    }
 }
 
 @media only screen and (min-width: 993px) {
-  .form-element {
-    width: 60vw;
-  }
+    .form-element {
+        width: 60vw;
+    }
 }
 
 .form-element {
-  border: 1px solid #999;
-  border-radius: 5px;
-  background-color: #fafafa;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fafafa;
 }
 .form-query {
-  height: 10vh;
-  resize: none;
+    height: 10vh;
+    resize: none;
 }
 
 .modal-footer .modal-close,
-.form-submit {
-  background-color: #fc6161;
-  color: #fafafa;
-  width: 9rem;
-  height: 2rem;
-  border: 1px solid #fc6161;
-  border-radius: 4rem;
-  font-family: "Exo 2", sans-serif;
+.form-submit,
+button#submit {
+    background-color: #fc6161;
+    color: #fafafa;
+    width: 9rem;
+    height: 2rem;
+    border: 1px solid #fc6161;
+    border-radius: 4rem;
+    font-family: "Exo 2", sans-serif;
 }
 
 .form-submit:hover,
-.modal-footer .modal-close:hover {
-  background-color: #f02323;
-  border: 1px solid #f02323;
+.modal-footer .modal-close:hover,
+button#submit:hover {
+    background-color: #f02323;
+    border: 1px solid #f02323;
 }
 
 .discogs-logo {
-  display: inline-block;
-  margin-left: 35vw;
-  width: 30vw;
-  height: 12vw;
-  border: 1px solid #fff;
-  border-radius: 5px;
+    display: inline-block;
+    margin-left: 35vw;
+    width: 30vw;
+    height: 12vw;
+    border: 1px solid #fff;
+    border-radius: 5px;
 }
 
 /* END contact us page */
@@ -307,36 +322,36 @@ h5 {
 /* Find us section styles */
 
 div#map {
-  height: 30vh;
-  margin-top: 5vh;
+    height: 30vh;
+    margin-top: 5vh;
 }
 
 .find-info {
-  background-color: #fafafa;
-  border: 1px solid #999;
-  border-radius: 5px;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+    background-color: #fafafa;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 @media only screen and (min-width: 769px) {
-  .find-info {
-    width: 40vw;
-  }
+    .find-info {
+        width: 40vw;
+    }
 }
 
 .find-info .key {
-  display: inline-block;
-  width: 25%;
+    display: inline-block;
+    width: 25%;
 }
 
 .find-info .value {
-  display: inline-block;
-  width: 70%;
+    display: inline-block;
+    width: 70%;
 }
 
 .find-info .key p,
 .find-info .value p {
-  margin: 1vh 0;
-  padding-left: 3vw;
+    margin: 1vh 0;
+    padding-left: 3vw;
 }

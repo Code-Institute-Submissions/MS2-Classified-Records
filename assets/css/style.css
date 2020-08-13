@@ -47,6 +47,7 @@ label {
 .navbar {
     color: #fc6161;
     background-color: #fafafa;
+    padding: 0;
 }
 .navbar-logo-sm img {
     height: 60px;
@@ -72,7 +73,7 @@ label {
     font-size: 1.25rem;
     font-family: "Exo 2", sans-serif;
     text-align: right;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .navbar-nav .dropdown-menu {

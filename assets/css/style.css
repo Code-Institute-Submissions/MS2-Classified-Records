@@ -33,6 +33,11 @@ h5 {
     pointer-events: none;
 }
 
+label {
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
 /* navbar styles */
 .navbar {
     color: #fc6161;

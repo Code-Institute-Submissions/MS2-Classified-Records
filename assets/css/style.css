@@ -251,10 +251,11 @@ h5 {
 div#quiz {
     font-family: "Exo 2", sans-serif;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
     border: 1px solid #999;
     border-radius: 5px;
     background-color: #fafafa;
+    font-size: 1rem;
 }
 
 .quiz-button {

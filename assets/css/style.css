@@ -258,9 +258,21 @@ div#quiz {
     font-size: 1rem;
 }
 
+div#results {
+    font-family: "Exo 2", sans-serif;
+    text-align: center;
+    margin-top: 1vh;
+    font-size: 1.5rem;
+    color: #fc6161;
+}
+
 .quiz-button {
     text-align: center;
     margin-top: 3vh;
+}
+
+.question {
+    margin-top: 1vh;
 }
 /* Contact Us page styles */
 
@@ -300,6 +312,7 @@ button#submit {
     border: 1px solid #fc6161;
     border-radius: 4rem;
     font-family: "Exo 2", sans-serif;
+    font-size: 1rem;
 }
 
 .form-submit:hover,

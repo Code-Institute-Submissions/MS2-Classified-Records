@@ -66,8 +66,12 @@ Other important features that I decided to include were easily accessible links 
 In line with the desire to "keep it simple" I settled on using a single page structure with four separate sections:
 - Welcome / home page  
 - New In
-- Contact
-- Find 
+- Quiz
+- Contact Us
+
+Links to external sites appear prominently in the navbar.
+- Discogs - as this is a marketplace where the business can sell to customers, it is important that it is easily found and accessible to users.
+- Social - as the store already has an active social media presence with strong customer base engagement, being able to easily navigate to those sites will be user friendly.
 
 ### Skeleton Plane
 As outlined in the Structure Plane section above I decided to use a single page format for simplicity. 

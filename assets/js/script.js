@@ -29,49 +29,31 @@ function resetForm() {
 
 //Fade in/out album reviews on mouseover/out
 const toggleAlbumReview = () => {
-    $("#albumCover1").mouseenter(function () {
-        $("#albumReview1").addClass("fade-in");
-        $("#albumReview1").removeClass("fade-out");
-    });
+    const albumCovers = document.querySelectorAll(".album-cover");
+    const albumReviews = document.querySelectorAll(".album-review");
 
-    $("#albumCover1").mouseleave(function () {
-        $("#albumReview1").addClass("fade-out");
-        $("#albumReview1").removeClass("fade-in");
-    });
+    albumCovers.forEach((album, albumIndex) => {
+        const activeReview = albumReviews[albumIndex];
 
-    $("#albumCover2").mouseenter(function () {
-        $("#albumReview2").addClass("fade-in");
-        $("#albumReview2").removeClass("fade-out");
-    });
+        album.addEventListener("mouseenter", function () {
+            activeReview.classList.remove("fade-out");
+            activeReview.classList.add("fade-in");
+        });
 
-    $("#albumCover2").mouseleave(function () {
-        $("#albumReview2").addClass("fade-out");
-        $("#albumReview2").removeClass("fade-in");
-    });
+        album.addEventListener("mouseleave", function () {
+            activeReview.classList.remove("fade-in");
+            activeReview.classList.add("fade-out");
+        });
 
-    $("#albumCover3").mouseenter(function () {
-        $("#albumReview3").addClass("fade-in");
-        $("#albumReview3").removeClass("fade-out");
-    });
+        activeReview.addEventListener("mouseenter", function () {
+            activeReview.classList.remove("fade-out");
+            activeReview.classList.add("fade-in");
+        });
 
-    $("#albumCover3").mouseleave(function () {
-        $("#albumReview3").addClass("fade-out");
-        $("#albumReview3").removeClass("fade-in");
-    });
-
-    $("#albumReview1").mouseenter(function () {
-        $("#albumReview1").addClass("fade-in");
-        $("#albumReview1").removeClass("fade-out");
-    });
-
-    $("#albumReview2").mouseenter(function () {
-        $("#albumReview2").addClass("fade-in");
-        $("#albumReview2").removeClass("fade-out");
-    });
-
-    $("#albumReview3").mouseenter(function () {
-        $("#albumReview3").addClass("fade-in");
-        $("#albumReview3").removeClass("fade-out");
+        activeReview.addEventListener("mouseenter", function () {
+            activeReview.classList.remove("fade-out");
+            activeReview.classList.add("fade-in");
+        });
     });
 };
 

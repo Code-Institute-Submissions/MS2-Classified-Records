@@ -33,6 +33,7 @@ const toggleAlbumReview = () => {
     const albumReviews = document.querySelectorAll(".album-review");
 
     albumCovers.forEach((album, albumIndex) => {
+        //apply fade-in, remove fade-out style class to active review
         const activeReview = albumReviews[albumIndex];
 
         album.addEventListener("mouseenter", function () {

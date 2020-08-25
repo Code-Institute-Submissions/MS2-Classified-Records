@@ -179,8 +179,55 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 ## Testing on Different Browsers
 
 ## Code Validation
+### HTML
+HTML was validated using the [W3 Markup Validation Service](https://validator.w3.org/)
+
+The following issues were flagged by the validator:  
+Error:  
+Attribute "type" not allowed on textarea elements  
+
+Warnings:
+"type" attribute unnecessary for javascript resources
+
+These attributes were removed from index.html to rectify the errors.
+
+### CSS
+CSS was validated using [Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+Errors and warnings returned related to external resources (e.g Bootstrap, Fontawesome).
+
+### JavaScript
+[JS Hint](https://jshint.com/) was used to test JavaScript code.
+
 
 ## User Stories
+
+1. As a new user I want to know **where** the business is located:  
+New users can find the store location by clicking on the Contact Us link in the navbar.
+The info can also be accessed by manually scrolling down the page.
+
+2. As a new user I want to know the store's **opening hours** and how to **contact** the store:  
+New users can find the store opening hours and contact info by clicking on the Contact Us link in the navbar.
+The info can also be accessed by manually scrolling down the page.
+
+3. As a user I want to see what **latest releases** the store has in stock:  
+Latest releases can be found by clicking the New In link in the navbar  
+By clicking on one of the Discogs links in the navbar, Contact Us section or footer, the user can find out what records the store is currently selling online.
+
+4. As a user I want to be able to contact the store to enquire about the **availability** of records:  
+By clicking the Contact Us link in the navbar the user is brought to the contact form where they can submit queries  
+The store's phone number is also in this section
+
+5. As a user I want to be able to **order and/or buy records** through the website
+To order a record a user can use:  
+- Contact Form  
+- Links to Social media to submit order via the users preferred social media channel  
+- Navigate to the store's contact info and contact the store via telephone  
+- The website cannot currently handle payments / sales - this is a planned feature for the future  
+
+6. As a user I want to find the store's **social media channels** and interact with them
+Users can find links to the store's social channels by clicking on the Social dropdown menu in the navbar, or by accessing the links in the footer.
+
 
 ## Deployment
 The site is hosted on [GitHub Pages](https://dermot-k.github.io/MS2-Classified-Records/).

@@ -179,6 +179,7 @@ label {
     height: 100vh;
     padding: 0;
     margin: 0;
+    position: absolute;
 }
 
 @media only screen and (max-width: 992px) {

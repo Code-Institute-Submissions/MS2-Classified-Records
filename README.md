@@ -40,7 +40,7 @@ The aim of this project is to build a website which enables a small independent 
 - As a new user I want to know the store's **opening hours** and how to **contact** the store
 - As a user I want to see what **latest releases** the store has in stock
 - As a user I want to be able to contact the store to enquire about the **availability** of records
-- As a user I want to be able to **order records** through the website
+- As a user I want to be able to **order and/or buy records** through the website
 - As a user I want to find the store's **social media channels** and interact with them
 
 ## Site Owner Goals
@@ -119,12 +119,16 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
 
 ## Existing Features
 - Interactive navbar with responsive dropdown menu and social links
+- Navbar link to Classified Records Discogs page
 - Welcome page, "New In" page which shows new items in stock
+- Album reviews which appear on screen when an album cover is hovered over (desktop only)
 - Multiple choice quiz
-- Store contact and location info
-- Info on store opening hours
+- A scroll to top button, to allow easy navigation back to the top of the page (especially on mobile devices)
 - Interactive contact form which allows users to submit queries to the store
 - Interactive map with marker on store location
+- Store contact and location info
+- Additional link to Discogs marketplace in the contact us section
+- Info on store opening hours
 - Footer containing external links to Discogs and social media sites
 - Documentation: ReadMe file
 - Accessibility
@@ -207,3 +211,10 @@ To deploy your own version of the website:
 - The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
 
 It may take a moment for changes to appear on the hosted website.
+
+# Credits
+- Seun Owonikoko for her valuable advice and mentoring
+- Code Institute
+- [CodePen](https://codepen.io/deveb22/pen/QxPmGz) - for the scroll to top button code
+- [Sitepoint](https://www.sitepoint.com/simple-javascript-quiz/) - for guidance on putting the quiz together
+- The Discogs logo is property of [Discogs](www.discogs.com)

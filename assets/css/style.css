@@ -178,17 +178,6 @@ label {
     padding: 0;
 }
 
-.welcome-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #99999955;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
 @media only screen and (max-width: 992px) {
     .main-logo {
         width: 81vw;

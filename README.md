@@ -86,7 +86,6 @@ A click on any of the navbar options will bring the user direct to their selecte
 ### Surface Plane
 I wanted to create a theme which bears strong resemblance to the bricks and mortar store. Hence the use of the colours as outlined below in the design section.
 Finding a striking hero image which also blends in nicely with the rest of the page was important, and I settled on a beautiful close up image of a turntable which I found on Unsplash.  
-A transparent light gray overlay was applied to this to gently mute the shades in the image.
 
 The main body of the page is mainly white which ties in with the clean, modern look of the store. The fonts are mostly in red  ![#fc6161](https://via.placeholder.com/15/fc6161/000000?text=+) `#fc6161` or black for smaller font sizes.
 Again the reasoning behind these choices was to evoke the look of the real world store in users minds while they browse the site.
@@ -175,6 +174,27 @@ The font used throughout the site is Exo 2 from [Google Fonts](https://fonts.goo
   The site was manually tested on different devices and browsers to check responsiveness and functionality.
 
 ## Manual Testing
+The site was tested on the following devices:
+
+Samsung S10 - Viewport size 360px * 760px  
+Samsung S9+ - Viewport size 412px * 846px  
+Apple iPad - Viewport size 768px * 1024px  
+
+The site was found to be responsive and displaying as expected across the above screen sizes.
+
+## Issues Uncovered
+
+1. The size of paragraph text was found to be slightly too small on smaller mobile devices.
+- Fix: font size for all paragraph elements was increased from 0.875rem to 1 rem.
+
+2. The transparent overlay was not scrolling away fixed with the hero image when scrolling from the top of the page.
+- Fix: fixed the overlay to top left position
+- Revised: I decided that the image did not require the overlay as I felt the red color on the logo contrasted nicely against the background when the overlay was removed.
+
+3. Heading sizes were initially inconsistent down through the page sections. It didn't appear clear when users were moving from one distinct part of the page from another.
+- Fixes: All h1 section headings were given a margin-top of 5vh  
+- hr elements were added to give more emphasis to the section headings.
+
 
 ## Testing on Different Browsers
 

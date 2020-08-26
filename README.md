@@ -197,6 +197,8 @@ The site was found to be responsive and displaying as expected across the above 
 
 
 ## Testing on Different Browsers
+I used Google Chrome and Microsoft Edge dev tools throughout the project.  
+No issues / inconsistencies were uncovered during testing in these browsers.
 
 ## Code Validation
 ### HTML
